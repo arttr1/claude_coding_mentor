@@ -151,7 +151,7 @@ Python
 ### context7
 Получает актуальную документацию библиотек и фреймворков напрямую из источников. Используется когда тема связана с конкретной технологией: pandas, sklearn, PyTorch, LangChain и т.д.
 
-**Настройка** — добавь в `~/.claude/claude_desktop_config.json` (или `claude_code_config.json`):
+**Настройка** — нужен токен с [context7.com](https://context7.com). Добавь в `~/.claude/claude_desktop_config.json` (или `claude_code_config.json`):
 ```json
 {
   "mcpServers": {
@@ -184,7 +184,7 @@ Python
 ### omnisearch
 Агрегирует несколько источников: веб-поиск, GitHub, AI-поиск. Используется когда нужно найти примеры кода, репозитории или сравнить подходы.
 
-**Настройка** — нужен API-ключ:
+**Настройка** — нужен API-ключ с [tavily.com](https://tavily.com):
 ```json
 {
   "mcpServers": {
