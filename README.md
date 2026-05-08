@@ -61,6 +61,8 @@
 ### `obsidian-exporter` — Экспорт в Obsidian
 Автоматически определяет теги, создаёт `[[wiki-links]]` между концепциями и формирует frontmatter. Сохраняет файл в указанный Obsidian vault. Вызывается после `/quiz`.
 
+> **Настройка**: перед первым использованием укажи путь к своему vault в `.claude/agents/obsidian-exporter.md` — найди строку `Сохрани в:` в разделе "Шаг 5: Сохранение" и замени `<obsidian vault path>` на абсолютный путь к папке vault, например `/Users/username/Documents/my_vault`.
+
 ---
 
 ## Слэш-команды
