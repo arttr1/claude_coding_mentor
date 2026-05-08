@@ -118,7 +118,7 @@ type: algorithm/ds/ml/system-design
    - Примеры: `house-robber-dp.md`, `titanic-eda-feature-engineering.md`, `binary-search-implementation.md`
    - Если файл существует — добавь дату: `<название>-2024-04-27.md`
 
-2. Сохрани в: `/Users/arttr/Library/Mobile Documents/iCloud~md~obsidian/Documents/my_vault/<имя>.md`
+2. Сохрани в: `<obsidian vault path>`
 
 3. **Не удаляй оригинал** из `.claude/notes/my_notes/` — там остаётся рабочая копия
 
